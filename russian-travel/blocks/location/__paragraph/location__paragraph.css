@@ -1,0 +1,24 @@
+.location__paragraph {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 26px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .location__paragraph {
+        font-size: 16px;
+        line-height: 163%;
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width: 650px) and (min-width: 320px) {
+
+    .location__paragraph {
+        margin: 0 auto;
+        max-width: 288px;
+       
+    }
+}
+

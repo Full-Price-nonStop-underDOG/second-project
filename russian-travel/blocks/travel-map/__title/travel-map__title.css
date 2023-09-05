@@ -1,0 +1,33 @@
+.travel-map__title {
+    margin: 56px auto 32px auto;
+    max-width: 720px;
+    min-width: 288px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+}
+
+@media screen and (max-width: 1024px){
+    
+    .travel-map__title {
+       margin-top: 48px; 
+    }
+}
+
+@media screen and (max-width:700px){
+    
+    .travel-map__title {
+        font-size: 92px;
+    }
+}
+
+@media screen and (max-width: 650px) and (min-width: 320px) {
+    .travel-map__title {
+        font-style: normal;
+        font-size: 40px;
+        line-height: 44px;
+        margin-bottom: 16px;
+    }
+}

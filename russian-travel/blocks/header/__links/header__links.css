@@ -1,0 +1,44 @@
+.header__links {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    position: relative;
+    
+    
+}
+
+.header__links:first-child{
+    padding-right: 18px;
+}
+
+.header__links::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2A2C2F;
+    opacity: 0.1;
+    transition: .7s ease;
+}
+
+.header__links:hover {
+    opacity: 0.8;
+}
+
+
+@media screen and (max-width: 642px){
+    .header__links{
+        font-size: 18px;
+        margin-right: 9px;
+        
+    }
+
+    .header__links:first-child{
+        padding-right: 0;
+    }
+}

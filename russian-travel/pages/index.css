@@ -1,25 +1,47 @@
-.page{
-    background-color: #2A2C2F;
-    min-width: 1280px;
-    color: #FFFFFF;
-}
+@import url(../vendor/normalize.css);
 
-.header__logo{
-    position: absolute;
-    top: 28px;
-    left: 48px;
-}
+@import url(../vendor/fonts.css);
 
-.header__lang{
-    position: absolute;
-    top: 46px;
-    right: 48px;
-}
+@import url(../blocks/page/page.css);
 
-.lang_ru{
-    padding-right: 18px;
-}
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__links/_type-activated/header__links_type-activated.css);
 
-.header__title{
-    margin:
-}
+@import url(../blocks/travel-map/travel-map.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/travel-map/__title/travel-map__title.css);
+@import url(../blocks/travel-map/__subtitle/travel-map__subtitle.css);
+@import url(../blocks/travel-map/__lead-polka/travel-map__lead-polka.css);
+@import url(../blocks/travel-map/__lead-polka-text/travel-map__lead-polka-text.css);
+
+@import url(../blocks/info/info.css);
+@import url(../blocks/info/__title/info__title.css);
+@import url(../blocks/info/__subtitle/info__subtitle.css);
+@import url(../blocks/info/__stats/info__stats.css);
+@import url(../blocks/info/__bold/info__bold.css);
+
+@import url(../blocks/photo-gallery/photo-gallery.css);
+@import url(../blocks/photo-gallery/__grid/photo-gallery__grid.css);
+
+@import url(../blocks/locations/locations.css);
+@import url(../blocks/location/location.css);
+@import url(../blocks/location/__title/location__title.css);
+@import url(../blocks/location/__text/location__text.css);
+@import url(../blocks/location/__paragraph/location__paragraph.css);
+@import url(../blocks/location/__link/location__link.css);
+@import url(../blocks/location/__subtitle/location__subtitle.css);
+@import url(../blocks/location/__website/location__website.css);
+@import url(../blocks/location/__img/location__img.css);
+
+@import url(../blocks/farewell-photo/farewell-photo.css);
+@import url(../blocks/farewell-photo/__title/farewell-photo__title.css);
+@import url(../blocks/farewell-photo/__subtitle/farewell-photo__subtitle.css);
+@import url(../blocks/farewell-photo/__size/farewell-photo__size.css);
+@import url(../blocks/farewell-photo/__background/farewell-photo__background.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__author/footer__author.css);
+

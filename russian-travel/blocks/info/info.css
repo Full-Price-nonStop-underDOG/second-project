@@ -1,0 +1,33 @@
+.info {
+    margin: 0 auto;
+    max-width: 984px;
+    min-width: 288px;
+    position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .info {
+        margin-left: 48px;
+       
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .info {
+        margin-left: 24px;
+       
+        
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .info {
+        margin-left: 16px;
+        
+        
+    }
+}

@@ -1,0 +1,10 @@
+.location__link {
+    align-self: end;
+}
+
+@media screen and (max-width: 650px) and (min-width: 320px) {
+
+    .location__link {
+        margin-left: 16px;
+    }
+}
